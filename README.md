@@ -41,8 +41,8 @@ Ensure you have the following installed:
 4. Train the agent using Q-learning.
 5. Visualize the maze and the learned path with show_agents_learning.
 
-Example
-# Define maze parameters
+## Example
+### Define maze parameters
 size = 10
 start_position = (0,0)
 goal_position = (9,9)
