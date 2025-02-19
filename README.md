@@ -43,40 +43,40 @@ Ensure you have the following installed:
 
 ## Example
 ### Define maze parameters
-   size = 10
-   start_position = (0,0)
-   goal_position = (9,9)
+   size = 10  
+   start_position = (0,0)  
+   goal_position = (9,9)  
 
 #### Generate maze
-   maze = maze_creation(size, 20, start=start_position, goal=goal_position)
+   maze = maze_creation(size, 20, start=start_position, goal=goal_position)  
 
 #### Convert positions to index
-   start = index_position(start_position, size)
-   goal = index_position(goal_position, size)
+   start = index_position(start_position, size)  
+   goal = index_position(goal_position, size)  
 
 #### Train agent
-   Q_values = q_learning(maze, size, start, goal)
+   Q_values = q_learning(maze, size, start, goal)  
 
 #### Show learned path
-   show_agents_learning(maze, Q_values, start, goal, size)
+   show_agents_learning(maze, Q_values, start, goal, size)  
 
 #### Define maze parameters
-   size = 10
-   start_position = (0,0)
-   goal_position = (9,9)
+   size = 10  
+   start_position = (0,0)  
+   goal_position = (9,9)  
 
 #### Generate maze
-   maze = maze_creation(size, 20, start=start_position, goal=goal_position)
+   maze = maze_creation(size, 20, start=start_position, goal=goal_position)  
 
 #### Convert positions to index
-   start = index_position(start_position, size)
-   goal = index_position(goal_position, size)
+   start = index_position(start_position, size)  
+   goal = index_position(goal_position, size)  
 
 #### Train agent
-   Q_values = q_learning(maze, size, start, goal)
+   Q_values = q_learning(maze, size, start, goal)  
 
 #### Show learned path
-   show_agents_learning(maze, Q_values, start, goal, size)
+   show_agents_learning(maze, Q_values, start, goal, size)  
 
 ## Q-Learning Algorithm
 1. Initialize a Q-table with zeros for all possible state-action pairs.
