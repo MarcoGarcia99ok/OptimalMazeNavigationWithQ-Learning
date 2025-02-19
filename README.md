@@ -84,11 +84,8 @@ Ensure you have the following installed:
    - Start at the initial position.
    - Select an action based on the epsilon-greedy policy.
    - Move according to the action and receive a reward or penalty.
-   - Update the Q-table using the Bellman equation:
-     <div align="center">
-
-Q[state, action] += alpha * (reward + gamma * max(Q[next_state, :]) - Q[state, action])
-</div>
+   - Update the Q-table using the Bellman equation:  
+     Q[state, action] += alpha * (reward + gamma * max(Q[next_state, :]) - Q[state, action])
    - Repeat until reaching the goal.
 
 ## Visualization
